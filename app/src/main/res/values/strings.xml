@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OnOff_simplifiedUI</string>
+    <string name="param_dim">Dim</string>
+    <string name="param_temp">Temp</string>
+</resources>
