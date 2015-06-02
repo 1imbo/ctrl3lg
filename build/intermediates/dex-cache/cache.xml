@@ -9,6 +9,13 @@
         <dex dex="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\pre-dexed\debug\classes-aa16063deba380c04b2e09df62916c431fd4279b.jar" />
     </item>
     <item
+        jar="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\exploded-aar\OnOff_simplifiedUI.app.libs\lifx\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="503ed5533a42e0cc5bfb14185180b90b70105e84">
+        <dex dex="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\pre-dexed\debug\classes-fd7dcd9b2b55a1d4f368dea8bd6dd34be2ae8250.jar" />
+    </item>
+    <item
         jar="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"

@@ -6,8 +6,7 @@
 
         <activity
             android:name=".controllers.MainActivity"
-            android:screenOrientation="landscape"
-            >
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
