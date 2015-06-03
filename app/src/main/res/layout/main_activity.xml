@@ -43,14 +43,16 @@
                 android:layout_height="match_parent" >
 
                 <TextView
+                    android:id="@+id/dim1view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="50%"/>
 
                 <VerticalSeekBar
+                    android:id="@+id/dim1seek"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -70,14 +72,16 @@
                 android:layout_height="match_parent">
 
                 <TextView
+                    android:id="@+id/temp1view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="6500K"/>
 
                 <VerticalSeekBar
+                    android:id="@+id/temp1seek"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -94,6 +98,7 @@
         </LinearLayout>
 
         <Switch
+            android:id="@+id/switch1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal" />
@@ -140,14 +145,16 @@
                 android:layout_height="match_parent" >
 
                 <TextView
+                    android:id="@+id/dim2view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="50%"/>
 
                 <VerticalSeekBar
+                    android:id="@+id/dim2seek"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -167,14 +174,16 @@
                 android:layout_height="match_parent">
 
                 <TextView
+                    android:id="@+id/temp2view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="6500K"/>
 
                 <VerticalSeekBar
+                    android:id="@+id/temp2seek"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -191,6 +200,7 @@
         </LinearLayout>
 
         <Switch
+            android:id="@+id/switch2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal" />
@@ -237,14 +247,16 @@
                 android:layout_height="match_parent" >
 
                 <TextView
+                    android:id="@+id/dim3view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="50%"/>
 
                 <VerticalSeekBar
+                    android:id="@+id/dim3seek"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -264,14 +276,16 @@
                 android:layout_height="match_parent">
 
                 <TextView
+                    android:id="@+id/temp3view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="6500K"/>
 
                 <VerticalSeekBar
+                    android:id="@+id/temp3seek"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -288,6 +302,7 @@
         </LinearLayout>
 
         <Switch
+            android:id="@+id/switch3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"/>
