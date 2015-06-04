@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\exploded-aar\OnOff_simplifiedUI.app.libs\lifx\unspecified\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2a2da4807f5bd4f94041659067b68f04f403a6a1">
-        <dex dex="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\pre-dexed\debug\classes-fd7dcd9b2b55a1d4f368dea8bd6dd34be2ae8250.jar" />
-    </item>
-    <item
-        jar="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\pre-dexed\debug\classes-aa16063deba380c04b2e09df62916c431fd4279b.jar" />
-    </item>
-    <item
-        jar="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\pre-dexed\debug\classes-6d4446e3a077011f1c77bbce7ac72f64b25c7d44.jar" />
-    </item>
-    <item
-        jar="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jar="C:\Test_bulb_git\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-c2cd9ead0ac0c81be0f5077c3b9a49b1a6f38839.jar" />
+        <dex dex="C:\Test_bulb_git\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-cd5319d07320a2f11a54e63c20d8b537b1eda66b.jar" />
     </item>
     <item
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jar="C:\AndroidSDK\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Workspace\Android\OnOff_simplifiedUI\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-036d4f6abf1af3a69bdd91c577da918ead884ec2.jar" />
+        <dex dex="C:\Test_bulb_git\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-00e70e801b05681bc6f6d90de02a2463c915a05e.jar" />
+    </item>
+    <item
+        jar="C:\Test_bulb_git\app\build\intermediates\exploded-aar\Test_bulb_git.app.libs\lifx\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="268a87eaeb46965d42b940ea41c0bdb406f9e8ce">
+        <dex dex="C:\Test_bulb_git\app\build\intermediates\pre-dexed\debug\classes-253b41599ab5824f7b3d9c509665dc610e5c4eb4.jar" />
+    </item>
+    <item
+        jar="C:\Test_bulb_git\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Test_bulb_git\app\build\intermediates\pre-dexed\debug\classes-3263f7f2d483227860f0e7f419a17b422cc90276.jar" />
+    </item>
+    <item
+        jar="C:\Test_bulb_git\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Test_bulb_git\app\build\intermediates\pre-dexed\debug\classes-fffa1647b1379538b75344b69619cd793808aad2.jar" />
     </item>
 
 </items>

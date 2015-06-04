@@ -1,11 +1,11 @@
 package com.itcms.onoff_simplifiedui.controllers;
 
 import android.content.Context;
+import android.net.wifi.WifiManager;
+import android.net.wifi.WifiManager.MulticastLock;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.WindowManager;
-import android.net.wifi.WifiManager;
-import android.net.wifi.WifiManager.MulticastLock;
 import android.widget.ImageButton;
 import android.widget.Switch;
 import android.widget.TextView;
@@ -17,7 +17,6 @@ import com.itcms.onoff_simplifiedui.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import lifx.java.android.client.LFXClient;
 import lifx.java.android.entities.LFXHSBKColor;
@@ -214,6 +213,6 @@ public class MainActivity extends ActionBarActivity
 
     @Override
     public void lightDidChangePowerState(LFXLight light, LFXTypes.LFXPowerState powerState) {
-        //Toast.makeText(this, light.getLabel() + " has changed its power state to " + powerState.toString(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, light.getLabel() + " has changed its power state to " + powerState.toString(), Toast.LENGTH_SHORT).show();
     }
 }
