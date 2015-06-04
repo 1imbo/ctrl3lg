@@ -17,13 +17,15 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/label1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Bulb 1"/>
+                android:text="@string/no_bulb"/>
 
             <ImageButton
+                android:id="@+id/btn_change_label1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_mode_edit_white_24dp" />
@@ -53,6 +55,7 @@
                     android:id="@+id/dim1seek"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -82,6 +85,7 @@
                     android:id="@+id/temp1seek"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -91,6 +95,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
                     android:text="@string/param_temp"/>
 
             </LinearLayout>
@@ -119,13 +125,15 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/label2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Bulb 1"/>
+                android:text="@string/no_bulb"/>
 
             <ImageButton
+                android:id="@+id/btn_change_label2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_mode_edit_white_24dp" />
@@ -155,6 +163,7 @@
                     android:id="@+id/dim2seek"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -184,6 +193,7 @@
                     android:id="@+id/temp2seek"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -193,6 +203,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
                     android:text="@string/param_temp"/>
 
             </LinearLayout>
@@ -221,13 +233,15 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/label3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Bulb 1"/>
+                android:text="@string/no_bulb"/>
 
             <ImageButton
+                android:id="@+id/btn_change_label3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_mode_edit_white_24dp" />
@@ -257,6 +271,7 @@
                     android:id="@+id/dim3seek"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -286,6 +301,7 @@
                     android:id="@+id/temp3seek"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:max="100"
@@ -295,6 +311,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
                     android:text="@string/param_temp"/>
 
             </LinearLayout>

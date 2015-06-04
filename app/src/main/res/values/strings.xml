@@ -2,4 +2,11 @@
     <string name="app_name">OnOff_simplifiedUI</string>
     <string name="param_dim">Dim</string>
     <string name="param_temp">Temp</string>
+    <string name="edit_label_dialog_title">Edit label</string>
+    <string name="edit_label_dialog_ok">Submit</string>
+    <string name="edit_label_dialog_cancel">Cancel</string>
+    <string name="edit_label_dialog_enter_label">Enter new label for</string>
+    <string name="edit_label_dialog_hint">Type here..</string>
+    <string name="no_bulb">[NO BULB]</string>
+    <string name="label_no_changed">New label is empty or equals to current</string>
 </resources>
