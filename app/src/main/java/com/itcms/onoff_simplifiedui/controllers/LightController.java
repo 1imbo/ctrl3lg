@@ -153,10 +153,10 @@ public class LightController implements OnCheckedChangeListener {
             }
         });
 
-        initSwitchWithOffPowerState();
+        initControlsWithLightState();
     }
 
-    private void initSwitchWithOffPowerState() {
+    private void initControlsWithLightState() {
         lfxLight.setPowerState(LFXPowerState.OFF);
         lightSwitch.setChecked(lfxLight.getPowerState() == LFXPowerState.ON);
     }

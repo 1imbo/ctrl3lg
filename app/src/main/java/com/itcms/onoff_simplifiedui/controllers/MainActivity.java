@@ -208,7 +208,7 @@ public class MainActivity extends ActionBarActivity
         TextView dimView = lightsStateMap.get(light).get(0);
         TextView tempView = lightsStateMap.get(light).get(1);
 
-        dimView.setText("" + (int) (color.getBrightness() * 100) + "%");
+        dimView.setText("" + Math.round(color.getBrightness() * 100) + "%");
         tempView.setText("" + color.getKelvin() + "K");
     }
 
